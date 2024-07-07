@@ -22,8 +22,16 @@ Assume n is a non-negative integer.
 
 ```python
 def factorial(n):
+
+  # Initialize x to 1, which will be used to store the result of the factorial calculation
   x = 1
+
+  # Loop through numbers from 1 to n (inclusive)
   for i in range(1,n+1):
+
+    # Multiply x by the current number i and update x
     x = x * i
+
+  # Return the calculated factorial
   return x
 ```
