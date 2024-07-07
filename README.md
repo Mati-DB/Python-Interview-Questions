@@ -6,3 +6,4 @@ You'll find the solution links for the case studies below. Simply click on the l
 
  - [Factorial Formula [Microsoft]](https://github.com/Mati-DB/Python-Interview-Questions/blob/main/Factorial%20Function%20%5BMicrosoft%5D.md)
  - [Fizz Buzz Sum [Google]](https://github.com/Mati-DB/Python-Interview-Questions/blob/main/Fizz%20Buzz%20Sum%20%5BGoogle%5D.md)
+ - [Intersection of Two Lists [Amazon]](https://github.com/Mati-DB/Python-Interview-Questions/blob/main/Intersection%20of%20Two%20Lists%20%5BAmazon%5D.md)
