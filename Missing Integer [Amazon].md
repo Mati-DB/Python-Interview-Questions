@@ -19,4 +19,19 @@ Another example: given ```input = [4, 3, 2, 1]```, return ```0```. We return 0 b
 ## Solution
 
 ```python
+def missing_int(input_list):
+    
+    # Loop through numbers from 0 to the length of the input list
+    for i in range(len(input_list) + 1):
+        
+        # Check if the current number is in the input list
+        if i in input_list:
+            
+            # If true, continue to the next iteration
+            continue
+        
+        else:
+            
+            # If false, return the current number as the missing integer
+            return i
 ```
