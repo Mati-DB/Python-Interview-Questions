@@ -8,3 +8,4 @@ You'll find the solution links for the case studies below. Simply click on the l
  - [Fizz Buzz Sum [Google]](https://github.com/Mati-DB/Python-Interview-Questions/blob/main/Fizz%20Buzz%20Sum%20%5BGoogle%5D.md)
  - [Intersection of Two Lists [Amazon]](https://github.com/Mati-DB/Python-Interview-Questions/blob/main/Intersection%20of%20Two%20Lists%20%5BAmazon%5D.md)
  - [Missing Integer [Amazon]](https://github.com/Mati-DB/Python-Interview-Questions/blob/main/Missing%20Integer%20%5BAmazon%5D.md)
+ - [Contains Duplicate [Apple]](https://github.com/Mati-DB/Python-Interview-Questions/blob/main/Contains%20Duplicate%20%5BApple%5D.md)
