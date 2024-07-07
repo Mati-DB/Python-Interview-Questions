@@ -9,7 +9,7 @@ Please note that all the information regarding the case study has been sourced f
 ***
 
 ## Interview Question
-You are given a list of stock ```prices```, where the stock's price on the 𝑖^𝑡ℎ day is stored as the 𝑖^𝑡ℎ element of the prices list.
+You are given a list of stock ```prices```, where the stock's price on the i<sup>th</sup> day is stored as the 𝑖<sup>th</sup> element of the prices list.
 
 You want to maximize your profit trading the stock, but are only allowed to buy the stock once and sell it once on a future day.
 
@@ -36,6 +36,26 @@ The max profit here is ```0```.
 ## Solution
 
 ```python
+def max_subarray_profit(prices):
 
+    # Create a n empty list to store max subarray profit values (max price in following days - price today )
+    subarray_profit = []
+
+    # Loop through each element in prices to find each price and its index
+    for i in enumerate(prices):
+        index = i[0]
+        price = i[1]
+        
+        # If the index = n-1, break the loop
+        if index == len(prices)-1:
+            break
+        # If the index < n-1:
+        else:
+            
+            # Add the difference between the maximum future value and today's price to the subarray_profit list
+            subarray_profit.append(max(prices[index+1:]) - price)
+    
+    # Calculate the maximum profit possible and return that value        
+    max_profit = max(subarray_profit)
+    return max_profit 
 ```
-
