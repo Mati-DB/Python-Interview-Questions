@@ -1,4 +1,4 @@
-# Python-Interview-Questions
+# Python Interview Questions - Lvl1
 This repository shows my learning path by solving Interview Questions from [DataLemur](https://datalemur.com/questions?category=Python&difficulty=Easy).
 
 ## Index
