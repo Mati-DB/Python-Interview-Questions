@@ -11,7 +11,7 @@ Please note that all the information regarding the case study has been sourced f
 ## Interview Question
 Given a number n, write a formula that returns n!.
 
-In case you forgot the factorial formula, n! = n * (n-1) * (n-2) * ... * 2 * 1
+In case you forgot the factorial formula, **n! = n * (n-1) * (n-2) * ... * 2 * 1**
 
 For example, **5! = 5 * 4 * 3 * 2 * 1 = 120** so we'd return 120
 
