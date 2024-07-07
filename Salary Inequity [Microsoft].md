@@ -18,6 +18,7 @@ Write a function called ```min_inequity``` which takes in a list of salaries, an
 If that was hard to understand, you're not alone – let's break it down with some examples.
 
 **Example #1:**
+
 ```salaries = [60000, 80000, 120000, 70000]```
 
 ```n = 2```
