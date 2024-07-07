@@ -31,6 +31,7 @@ def fizz_buzz_sum(target):
             
             # If true, add the number to the addends list
             addends.append(i)
+
         else:
             
             # If false, skip to the next iteration
