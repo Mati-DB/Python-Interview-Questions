@@ -5,3 +5,4 @@ This repository shows my learning path by solving Interview Questions from [Data
 You'll find the solution links for the case studies below. Simply click on the links to access each solution.
 
  - [Factorial Formula [Microsoft]](https://github.com/Mati-DB/Python-Interview-Questions/blob/main/Factorial%20Function%20%5BMicrosoft%5D.md)
+ - [Fizz Buzz Sum [Google]](https://github.com/Mati-DB/Python-Interview-Questions/blob/main/Fizz%20Buzz%20Sum%20%5BGoogle%5D.md)
