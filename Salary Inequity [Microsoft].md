@@ -9,7 +9,7 @@ Please note that all the information regarding the case study has been sourced f
 ***
 
 ## Interview Question
-Given a list of salaries, we'll define a metric called inequity which is the difference between max and min salary seen in the list:
+Given a list of salaries, we'll define a metric called ```inequity``` which is the difference between max and min salary seen in the list:
 
 ```inequity = max(input_list) − min(input_list)```
 
@@ -37,6 +37,14 @@ The minimum inequity is $20,000, because 𝑚𝑎𝑥(60000,70000,80000) − �
 ## Solution
 
 ```python
+def min_inequity(salaries, n):
+    
+    # Sort salaries in ascending order and save the list into a new variable (sorted_salaries)
+    sorted_salaries = sorted(salaries)
 
+    # Select the lowest n salaries and use them to calculate the inequity 
+    inequity = max(sorted_salaries[:n]) - min(sorted_salaries[:n])
+
+    return inequity
 ```
 
