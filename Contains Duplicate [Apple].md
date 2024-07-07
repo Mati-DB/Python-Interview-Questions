@@ -19,5 +19,16 @@ However, if the input was ```[1,3,5,7]``` then return ```False```, because every
 ## Solution
 
 ```python
+def contains_duplicate(input):
 
+    # Compare the length of the input list against the same list transformed to a set as they don't admit duplicate elements
+    if len(input) != len(set(input)):
+
+        # If their length is different, then there are duplicate numbers 
+        return True
+
+    else:
+
+        # If their length is the same, then there are no duplicates
+        return False
 ```
